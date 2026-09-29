@@ -75,7 +75,7 @@
 
                         <!--List-->
                         <tr>
-                            <td bgcolor="#ffffff" style="padding: 45px 0;">
+                            <td bgcolor="#ffffff" style="padding: 45px;">
                                 <table class="border-radius" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
                                     <!--Title-->
                                     <tr>
@@ -87,7 +87,7 @@
                                     </tr>
                                     <!--Subtitle-->
                                     <tr>
-                                        <td style="font-family: Ubuntu, Verdana, Arial, sans-serif; font-size: 16px;text-align: center;padding-top: 10px;">
+                                        <td style="font-family: Ubuntu, Verdana, Arial, sans-serif; font-size: 16px;text-align: center;padding: 20px 0;">
                                             <font face=" 'Ubuntu', Verdana, Arial, sans-serif;">
                                                 With <strong>MBE eCommerce<span style="color: #e2001a;">Plus</span></strong> you can:
                                             </font>
@@ -95,7 +95,7 @@
                                     </tr>
                                     <!--List-->
                                     <tr>
-                                        <td style="text-align: left;padding: 10px 75px 0 75px;">
+                                        <td style="text-align: left;padding: 0 35px;">
                                             <table cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
                                                 <!--item-->
                                                 <tr>
@@ -241,25 +241,79 @@
                             </td>
                         </tr>
 
+                        <!--MSO pre-footer-->
+                        <tr>
+                            <td>
+                                <img src="https://ludovicobotalla.github.io/mbe-repository/template_en/assets/header-dem.jpg" alt="MBE Header" width="600" height="330" style="display: block;" />
+                            </td>
+                        </tr>
+
                         <!--Footer-->
                         <tr>
-                            <td bgcolor="#f1f1f1" style="padding: 90px 45px 45px 45px;background-color: #f1f1f1;background-image: url('https://ludovicobotalla.github.io/mbe-repository/template_en/assets/footer-bg.png');background-repeat:no-repeat;background-position:center;background-size: 100% 100%;">
-                                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
-                                    <!--Paragraph-->
+                            <td
+                                bgcolor="#f1f1f1"
+                                style="
+                                    background-color: #f1f1f1;
+                                    background-image: url('https://ludovicobotalla.github.io/mbe-repository/template_en/assets/footer-bg.png');
+                                    background-repeat: no-repeat;
+                                    background-position: center;
+                                    background-size: 100% 100%;
+                                "
+                            >
+
+                                <!--[if !mso]><!-->
+                                <table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0">
                                     <tr>
-                                        <td style="font-family: Ubuntu, Verdana, Arial, sans-serif; font-size: 14px; line-height: 18px; text-align: center;color: #ffffff;">
-                                            <font face=" 'Ubuntu', Verdana, Arial, sans-serif;">
-                                                If your webmail does not open automatically when clicking on<br>"Contact Us", you can find our email address above.
-                                                <br><br>
-                                                <a href="mailto:{{email_marketing}}" target="_blank" style="color: #ffffff; text-decoration: none;">{{email_marketing}}</a>
-                                                <br><br>
-                                                MBE Center {{centre_number}} | {{address_1}}, {{postcode}} {{suburb}}
-                                                <br>
-                                                <a style="color: #ffffff;">{{phone}}</a> | <a href="https://www.mbe.co.uk/?assign={{centre_number}}" target="_blank" style="color: #ffffff; text-decoration: none;">www.mbe.co.uk/{{centre_number}}</a>
-                                            </font>
+                                        <td style="padding:90px 45px 45px 45px;">
+                                <!--<![endif]-->
+
+                                <!--[if mso]>
+                                <table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#e2001a">
+                                    <tr>
+                                        <td bgcolor="#e2001a" style="padding:45px;">
+                                <![endif]-->
+
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
+                                                <tr>
+                                                    <td style="font-family: Ubuntu, Verdana, Arial, sans-serif; font-size: 14px; line-height: 18px; text-align: center; color: #ffffff;">
+                                                        <font face="'Ubuntu', Verdana, Arial, sans-serif;">
+                                                            If your webmail does not open automatically when clicking on<br>
+                                                            "Contact Us", you can find our email address above.
+                                                            <br><br>
+
+                                                            <a href="mailto:{{email_marketing}}" target="_blank"
+                                                            style="color: #ffffff; text-decoration: none;">
+                                                                {{email_marketing}}
+                                                            </a>
+
+                                                            <br><br>
+
+                                                            MBE Center {{centre_number}} | {{address_1}}, {{postcode}} {{suburb}}
+                                                            <br>
+
+                                                            <a style="color: #ffffff;">{{phone}}</a> |
+                                                            <a href="https://www.mbe.co.uk/?assign={{centre_number}}"
+                                                            target="_blank"
+                                                            style="color: #ffffff; text-decoration: none;">
+                                                                www.mbe.co.uk/{{centre_number}}
+                                                            </a>
+                                                        </font>
+                                                    </td>
+                                                </tr>
+                                            </table>
+
+                                <!--[if mso]>
                                         </td>
                                     </tr>
                                 </table>
+                                <![endif]-->
+
+                                <!--[if !mso]><!-->
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!--<![endif]-->
+
                             </td>
                         </tr>
 
